@@ -7,14 +7,14 @@ module.exports = function(app) {
     // Get Request
     app.get("/api/notes", function(req, res) {
         res.json(notes);
-        console.log("Got the note");
+        // console.log("Got the note");
     });
 
     // POST Request
     app.post("/api/notes", function(req, res) {
         notes.push(req.body);
         res.json("saved");
-        console.log("Another Note");
+        // console.log("Another Note");
     });
     
     // DELETE Request
