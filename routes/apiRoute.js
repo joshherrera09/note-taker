@@ -1,3 +1,4 @@
+// Require notes.js
 var notes = require("../db/notes")
 
 
@@ -6,12 +7,14 @@ module.exports = function(app) {
     // Get Request
     app.get("/api/notes", function(req, res) {
         res.json(notes);
+        console.log("Got the note");
     });
 
     // POST Request
     app.post("/api/notes", function(req, res) {
         notes.push(req.body);
         res.json("saved");
+        console.log("Another Note");
     });
     
     // DELETE Request
@@ -25,7 +28,7 @@ module.exports = function(app) {
         }
         notes = newNote;
 
-        res.json("Done");
+        // res.json("Done");
     });
 }
 
