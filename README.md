@@ -14,6 +14,11 @@ The Note Taker application is intended to be used to write, save, and delete not
 User must run `npm i` and `npm init` in the terminal to set up packages.
 ## Usage
 Run `node server.js` in the terminal to start your server.  The application runs on localhost:8080 in your browser.
+
+### Screenshot of deployed application
+
+<img width="1280" alt="Screen Shot 2020-09-17 at 12 06 42 PM" src="https://user-images.githubusercontent.com/61304861/93516100-68a08580-f8de-11ea-8c8f-2f3308aa6c42.png">
+
 ## License
 MIT
 ## Contributing
