@@ -15,7 +15,7 @@ User must run `npm i` and `npm init` in the terminal to set up packages.
 ## Usage
 Run `node server.js` in the terminal to start your server.  The application runs on localhost:8080 in your browser.
 ## License
-
+MIT
 ## Contributing
 This project is open to all contributors. Please see my Questions section if you would like to reach me in relation to contributing.
 ## Testing
